@@ -1,114 +1,114 @@
-@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Outfit:wght@100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Outfit:wght@100..900&display=swap");
 
 :root {
-    --color-yellow: hsl(47, 88%, 63%);
-    --color-gray-500: hsl(0, 0%, 42%);
-    --color-gray-950: hsl(0, 0%, 7%);
+  --color-yellow: hsl(47, 88%, 63%);
+  --color-gray-500: hsl(0, 0%, 42%);
+  --color-gray-950: hsl(0, 0%, 7%);
 
-    --font-size: 16px;
-    --font-family: "Figtree", sans-serif;
+  --font-size: 16px;
+  --font-family: "Figtree", sans-serif;
 
-    --spacing-300: 24px;
-    --spacing-150: 12px;
-    --spacing-100:  8px;
-    --spacing-50:   4px;
+  --spacing-300: 24px;
+  --spacing-150: 12px;
+  --spacing-100: 8px;
+  --spacing-50: 4px;
 }
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: var(--font-family);
-    background-color: var(--color-yellow);
+  font-family: var(--font-family);
+  background-color: var(--color-yellow);
 }
 
 .container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
 .card {
-    padding: 24px;
-    background-color: white;
-    width: 384px;
-    border-radius: 20px;
-    border: 1px solid var(--color-gray-950);
-    box-shadow: 8px 8px black; 
+  padding: 24px;
+  background-color: white;
+  width: 384px;
+  border-radius: 20px;
+  border: 1px solid var(--color-gray-950);
+  box-shadow: 8px 8px black;
 }
 
 .card-image {
-    margin: 0;
+  margin: 0;
 }
 
 .card-image img {
-    border-radius: 10px;
-    margin: 0;
-    object-fit: cover;
-    width: 100%;
+  border-radius: 10px;
+  margin: 0;
+  object-fit: cover;
+  width: 100%;
 }
 
 .card-category {
-    display: inline-block;
-    background-color: var(--color-yellow);
-    padding: 4px 12px;
-    border-radius: 4px;
-    font-family: var(--font-family);
-    font-size: 14px;
-    margin-top: var(--spacing-300);
-    line-height: 150%;
-    letter-spacing: 0px;
-    font-weight: bold;
+  display: inline-block;
+  background-color: var(--color-yellow);
+  padding: 4px 12px;
+  border-radius: 4px;
+  font-family: var(--font-family);
+  font-size: 14px;
+  margin-top: var(--spacing-300);
+  line-height: 150%;
+  letter-spacing: 0px;
+  font-weight: bold;
 }
 
 .card-published {
-    margin-top: var(--spacing-150);
-    font-size: 14px;
-    line-height: 150%;
-    letter-spacing: 0px;
-    font-weight: 500;
+  margin-top: var(--spacing-150);
+  font-size: 14px;
+  line-height: 150%;
+  letter-spacing: 0px;
+  font-weight: 500;
 }
 
 .card-title {
-    margin-top: var(--spacing-150);
-    font-size: 24px;
-    line-height: 150%;
-    letter-spacing: 0px;
-    font-weight: 800;
+  margin-top: var(--spacing-150);
+  font-size: 24px;
+  line-height: 150%;
+  letter-spacing: 0px;
+  font-weight: 800;
 }
 
 .card-title:hover {
-    color: var(--color-yellow);
-    cursor: pointer;
+  color: var(--color-yellow);
+  cursor: pointer;
 }
 
 .card-description {
-    margin-top: var(--spacing-150);
-    font-size: 16px;
-    color: var(--color-gray-500);
-    line-height: 150%;
-    letter-spacing: 0px;
-    font-weight: 500;
+  margin-top: var(--spacing-150);
+  font-size: 16px;
+  color: var(--color-gray-500);
+  line-height: 150%;
+  letter-spacing: 0px;
+  font-weight: 500;
 }
 
 .card-author-container {
-    display: flex;
-    align-items: center;
-    margin-top: var(--spacing-300);
+  display: flex;
+  align-items: center;
+  margin-top: var(--spacing-300);
 }
 
 .card-author-container img {
-    height: 32px;
+  height: 32px;
 }
 
 .card-author {
-    margin-left: var(--spacing-150);
-    font-size: 14px;
-    line-height: 150%;
-    letter-spacing: 0px;
-    font-weight: bold;
+  margin-left: var(--spacing-150);
+  font-size: 14px;
+  line-height: 150%;
+  letter-spacing: 0px;
+  font-weight: bold;
 }
